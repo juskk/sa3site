@@ -1,0 +1,157 @@
+
+.container
+    max-width: 1280px
+    margin-left: auto
+    margin-right: auto
+    background-color: #9cb9e4
+    padding: 20px 0
+    
+.section1
+    background-color: #b87f7f
+    
+
+    .menu
+        background-color: orange
+        padding: 11px 0
+        display: flex
+        flex-direction: row
+        justify-content: space-between
+        align-items: center
+
+        p 
+            font-size: 20px
+
+    .item1  
+        display: flex
+        flex-direction: row      
+
+    .s1m_element1
+        
+        
+
+        a 
+            background-color: orange
+            text-decoration: none
+            padding: 15px 20px
+            
+       
+            font-size: 20px
+            text-transform: uppercase 
+
+
+    .el1_links
+        position: absolute
+        z-index: 2
+        display: flex
+        flex-direction: column
+        margin-top: 17px
+        
+
+    .el1_link
+        display: none
+
+    .el1_link a 
+        color: white
+        font-size: 15px
+        opacity: 1
+        
+
+    .s1m_element1:hover .el1_link
+        display: inline-block
+        color: white
+        padding: 8px 0
+        font-size: 14px
+        width: 200px
+        
+        border-bottom: 1px solid #303030
+        background-color: orange
+        opacity: .7
+    
+    .el1_4hover:hover .el1_link
+        opacity: 1
+    
+    .span
+        margin-left: 20px
+
+    .s1m_element2
+        
+
+        a 
+            background-color: orange
+            text-decoration: none
+            padding: 10px 20px
+       
+            font-size: 20px
+            text-transform: uppercase 
+
+    .item2
+        i
+            color: white
+            margin-right: 15px
+
+.second_menu
+    display: flex
+    flex-direction: column
+
+
+    visibility: hidden
+    padding: 0 10px
+    max-height: 80px
+    
+    
+    margin-top: -49px
+    margin-right: auto
+    margin-left: auto
+    background-color: orange
+    max-width: 630px
+    
+
+    .second_menu_div
+        display: block
+        border: 1px solid black
+        background-color: white
+        padding: 5px 0
+        margin-top: 13px
+
+    .second_menu_list
+        visibility: hidden
+
+    
+        
+        
+    
+    
+
+@media screen and (max-width: 800px)
+
+    .menu
+        visibility: hidden
+
+    .el1_link
+        width: 0
+
+    .s1m_element2
+        width: 0
+
+    .s1m_element1
+        width: 0
+
+    
+    
+    .item1, .item2
+        visibility: hidden
+    
+    .second_menu
+        visibility: visible
+
+    .second_menu_div:active 
+        .second_menu_list
+            visibility: visible
+
+
+
+
+    
+
+
+
